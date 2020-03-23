@@ -18,9 +18,11 @@ vega : true
 
 {{< plotly json="/heatmap.json" height="400px" >}}
 
-## Vega Lite, bar and line chart 
+## Vega, bar and line chart 
 
 {{<vega id="viz" spec="/vega.json">}}
   
+## Vega, Word Cloud 
 
+{{<vega id="viz" spec="/wordcloud.json">}}
 
